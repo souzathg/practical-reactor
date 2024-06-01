@@ -26,9 +26,7 @@ public class c2_TransformingSequence extends TransformingSequenceBase {
      */
     @Test
     public void transforming_sequence() {
-        Flux<Integer> numbersFlux = numerical_service()
-                //todo change only this line
-                ;
+        Flux<Integer> numbersFlux = numerical_service();
 
         //StepVerifier is used for testing purposes
         //ignore it for now, or explore it independently
